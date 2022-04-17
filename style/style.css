@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+ul, ol{
+    list-style: none;
+}
+
+a{
+    display: inline-block;
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.parent{
+    padding-top:30px ;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link{
+    padding: 0 20px;
+    font-size: 17px;
+    color: black;
+    opacity: 40%;
+    transition: all 1s;
+    padding-bottom: 10px;
+
+}
+
+.link:hover{
+        opacity: 100%;
+        color: green;
+        border-bottom: solid 1px black;
+}
+
+
+.parent1{
+    width: 700px;
+}
+
+
+.titul{
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.txt{
+    margin-bottom: 30px;
+    border-left: 1px solid black;
+    padding-left: 20px;
+    line-height: 30px;
+}
+
+.btn{
+    padding: 10px 20px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    outline: none;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: gold;
+    color: black;
+    
+}
+
+.container1{
+    width: 1140px;
+    margin: 0 auto;
+   
+}
+
+.images{
+    width: 600px;
+    margin-left: 900px;
+  
+
+}
+.container2{
+    width: 1140px;
+    margin: 0 auto;
+
+}
+.item{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.ites{
+    padding-top:  30px; 
+}
+.name{
+ font-size: 20px;
+ font-weight: bold;
+}
+.sarlavha{
+    padding: 60px 30px;
+}
+.container3{
+    width: 2000px;
+    margin: 0 auto;
+    
+}
+.boxses{
+    display: flex;
+    
+}
+.container_image, .container_text{
+    width: 100%;
+
+}
+.container_text{
+    font-size: 50px;
+    padding-left: 100px;
+}
+.textes{
+  margin-left: 120px;
+  margin-top: 100px;
+  border-left: 1px solid  black;
+  padding-left: 20px;
+}
+.images1{
+    width: 600px;
+    margin-left: 1000px;
+}
+.btn1{
+   margin-left: 150px;
+   margin-top: 60px;
+   background-color: red;
+   color: white;
+   padding: 3px;
+   width: 100px;
+   height: 30px;
+   font-weight: bold;
+
+}
+.btn1:hover{
+    background-color: gold;
+    color: black;
+}
+.container4{
+    background-image: url(/img/runners.jpg);
+    width: 100%;
+    height: 800px;
+    background-repeat: no-repeat;
+    margin-left: 50px;
+    
+   
